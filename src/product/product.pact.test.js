@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('dotenv').config({path:__dirname+'/./../../.env'})
 const { Verifier } = require('@pact-foundation/pact');
 const controller = require('./product.controller');
 const Product = require('./product');
