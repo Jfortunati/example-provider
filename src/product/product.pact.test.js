@@ -41,7 +41,7 @@ describe("Pact Verification", () => {
     const stateHandlers = {
       "products exists": () => {
         controller.repository.products = new Map([
-          ["10", new Product("10", "CREDIT_CARD", "28 Degrees", 29.0, "red")]
+          ["10", new Product("10", "CREDIT_CARD", "28 Degrees", 29.0, "orange")]
         ]);
       },
       "products exist": () => {
