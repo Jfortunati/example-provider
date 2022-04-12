@@ -17,4 +17,4 @@ jobs:
         with:
           token: ${{ secrets.GHTOKENFORTRIGGERINGPACTDOCSUPDATE }}
           repository: pactflow/partners.pactflow.io
-          event-type: pactflow-example-provider-js-updated
+          event-type: pactflow-example-provider2-js-updated
