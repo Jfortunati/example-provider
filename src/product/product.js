@@ -1,6 +1,6 @@
 class Product {
     constructor(uuid, type, name) {
-        this.uuid=id;
+        this.uuid = uuid;
         this.type = type;
         this.name = name;
     }
