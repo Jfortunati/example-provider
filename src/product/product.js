@@ -1,9 +1,9 @@
 class Product {
-    constructor(id, type, name) {
+    constructor(id, type) {
         // provider stuff
         this.id = id;
         this.type = type;
-        this.name = name;
+        //this.name = name;
     }
 }
 
