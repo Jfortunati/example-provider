@@ -3,7 +3,7 @@ class Product {
         // provider stuff
         this.id = id;
         this.type = type;
-        //this.name = name;
+        this.name = name;
     }
 }
 
