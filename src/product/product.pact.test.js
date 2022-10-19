@@ -31,8 +31,8 @@ describe("Pact Verification", () => {
     const fetchPactsDynamicallyOpts = {
       provider: "pactflow-example-provider-6-3",
       //consumerVersionTag: ['master', 'prod'], //the old way of specifying which pacts to verify
-      consumerVersionSelectors: [{ tag: 'master', latest: true }, { deployed: true } ], // the new way of specifying which pacts to verify
-      //consumerVersionSelectors: [{ tag: 'master', latest: true } ],
+      //consumerVersionSelectors: [{ tag: 'master', latest: true }, { deployed: true } ], // original to workshop / demo repo the new way of specifying which pacts to verify
+      consumerVersionSelectors: [{ tag: 'master', latest: true }, {tag: 'demo-6-3-22', latest: true} ],
       pactBrokerUrl: process.env.PACT_BROKER_BASE_URL,
       enablePending: true,
       includeWipPactsSince: "2020-01-01"
